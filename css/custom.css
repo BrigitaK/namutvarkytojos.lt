@@ -1,11 +1,21 @@
 
 
 .header{
-    border-bottom: 1px solid #bdbdbd;
+    display: inline-block;
     padding: 20px;
-    position: relative;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #F8F9FC;
 }
-
+    .header > row{
+        
+    }
+    header> img {
+        }
+        nav {
+            
+        }
 .bg-grey {
     background-color: #F8F9FC;
 }
@@ -65,3 +75,5 @@
 .container-full{
     background-color: grey;
 }
+
+/* grid-template-columns: repeat(auto-fit, minmax (200px, 1fr)) */
