@@ -1,0 +1,83 @@
+
+
+.bg-grey {
+    background-color: #F8F9FC;
+}
+
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+.nav {
+    display: inline-block;
+    float: right;
+    margin-left:10px;
+}
+
+ .menu-main-h {
+    display: block;
+    float: left;
+
+    position: relative; 
+}
+
+.menu-mob-h {
+    display: none;
+    background:#c4c4c4;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    position: relative; 
+    width: 100%; 
+    float: left;
+}
+.menu-mob-h .show {
+    display: block;
+    background:#c4c4c4;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    position: relative; 
+    width: 100%; 
+    float: left;
+}
+
+.mob-menu-ico-h {
+    display: none; 
+    background:transparent; 
+    float: right;
+    position: relative; 
+    margin-top: -9px;
+}
+
+.mob-menu-icon {
+    display: block; 
+    width: 42px; 
+    height: 42px; 
+    position: relative; 
+    padding:8px; 
+    float: right;
+    cursor: pointer;
+}
+.menu-ico-str {
+    display: block; 
+    float: left; 
+    position: relative; 
+    width: 100%; 
+    height: 5px; 
+    background-color:#000; 
+    margin-bottom: 2px; 
+    margin-top: 2px; 
+    border-radius: 2px;
+}
+
+.menu-mob-h a {
+    display: block; 
+    width: 100%; 
+    padding:5px; 
+    text-align: center;
+}
+
+@media only screen and (max-width : 800px) {
+    .menu-main-h {display: none; height: auto;}
+    .mob-menu-ico-h {display: block;}
+}

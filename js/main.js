@@ -2,8 +2,13 @@
 //import data
 import data from '../data/data.js';
 //import rendering functions
-import {renderServices} from './renderServices.js';
 //execute
+function mobMeniu() {
+    const burgerDOM = document.querySelector('#header .mob-menu-icon');
+        burgerDOM.addEventListener('click', () => {
+            const contentDOM = burgerDOM.closest('.menu-mob-h');
+            contentDOM.classList.add('show');
+        })
+    
+    }
 
-const { services } = data;
-console.log(renderServices('.column-left .service', services));

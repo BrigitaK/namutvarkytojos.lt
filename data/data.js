@@ -11,13 +11,11 @@ const services = [
 },
 {
     title: 'Generalinis tvarkymas',
-    photo: 'cleaning.png',
-    par: 'Plačiau'
+    photo: 'cleaning.png'
 },
 {
     title: 'Postatybinis tvarkymas',
-    photo: 'cleaning.png',
-    par: 'Plačiau'
+    photo: 'cleaning.png'
 },
 ];
 

@@ -1,24 +1,8 @@
-
-
-.header{
-    display: inline-block;
-    padding: 20px;
-    position: fixed;
-    top:0;
-    width: 100%;
-    background-color: #F8F9FC;
+#header{
+    display: grid;
+    padding: 30px;
 }
-    .header > row{
-        
-    }
-    header> img {
-        }
-        nav {
-            
-        }
-.bg-grey {
-    background-color: #F8F9FC;
-}
+
     
     .send{
         padding: 20px;
