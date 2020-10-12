@@ -17,7 +17,7 @@ body {
      grid-area: services;
  }
 #send{
-    grid-area: send;;
+    grid-area: send;
 }
 #price {
     grid-area: price;
@@ -40,6 +40,7 @@ body {
     /*atskirti visus row elementus, kad nebutu sulipe vienas su kitu*/
     padding: 40px 0;
     gap: 30px 0;
+    margin-top: 50px;
 }
     .container > .row {
         display: grid;
@@ -65,6 +66,10 @@ body {
     .container {
         grid-template-columns: 30px 1fr 30px;
     }
+    .logo {
+        width: 100%;
+        margin-left: 30px;
+    }
     .container > .row > .col-small-1{ grid-column: span 1;}
     .container > .row > .col-small-2{ grid-column: span 2;}
     .container > .row > .col-small-3{ grid-column: span 3;}
@@ -83,6 +88,7 @@ body {
     .container {
         grid-template-columns: 1fr 660px 1fr;
     }
+    
     .container > .row > .col-sm-1{ grid-column: span 1;}
     .container > .row > .col-sm-2{ grid-column: span 2;}
     .container > .row > .col-sm-3{ grid-column: span 3;}

@@ -1,8 +1,6 @@
 .column-left{
     border: 1px solid #bdbdbd;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    padding: 20px;
 }
     .column-left > .row > img{
         display: block;
