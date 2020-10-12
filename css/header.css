@@ -3,12 +3,13 @@ html {
 }
 
 header {
+    display: grid;
+    width: 100%;
     height: 60px;
     background: none;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 100;
     transition: all 0.5s ease;
 }
@@ -16,8 +17,9 @@ header {
 .bg-grey {
     background-color: #F8F9FC;
 }
-
-
+.hed{
+    grid-area: ;
+}
 .logo {
     display: inline-block;
     float: left;
@@ -25,11 +27,17 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: left;
 }
 .nav {
     display: inline-block;
     float: right;
+    padding-right: 100px;
     margin-left:10px;
+}
+.nav > a {
+
+    text-align: right;
 }
 
  .menu-main-h {
