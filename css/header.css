@@ -1,18 +1,7 @@
-html {
+/*html {
     scroll-behavior: smooth;
 }
 
-header {
-    display: grid;
-    width: 100%;
-    height: 60px;
-    background: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    transition: all 0.5s ease;
-}
 
 .bg-grey {
     background-color: #F8F9FC;
@@ -110,4 +99,120 @@ header {
 @media only screen and (max-width : 800px) {
     .menu-main-h {display: none; height: auto;}
     .mob-menu-ico-h {display: block;}
+}*/
+
+header.container-fluid {
+    position: fixed;
+    padding: -40px 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    box-shadow: rgba(58, 78, 95, 0.2) 0 2px 10px, rgba(58, 78, 95, 0.05) 0 -5px 16px;
+    /* TODO: kai atsiras HERO, pasalinti sita fono spalva */
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.5s;
+}
+    header.container-fluid + * {
+        padding-top: 100px;
+    }
+    header.container-fluid.scroll {
+        background-color: #fff;
+    }
+    header img {
+        display: inline-block;
+        float: left;
+    }
+    header .hamburger {
+        color: #4d4d4d;
+        display: none;
+        float: right;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 15px;
+        padding: 8px;
+        background-color:#f7cc47;
+    }
+    .new{
+        outline: auto;
+        outline-color: grey;
+    }
+    header nav {
+        display: inline-block;
+        float: right;
+        margin-left:10px;
+    }
+        header nav > a {
+            display: inline-block;
+            float: left;
+            margin-left: 20px;
+            padding-bottom: 10px;
+            color: #000;
+            text-decoration: none;
+            position: relative;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+            header nav > a::after {
+                display: inline-block;
+                content: '';
+                height: 1px;
+                background-color: #7f7f7f;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                right: 50%;
+                transition: all 0.2s;
+            }
+            header nav > a:hover::after {
+                left: 0;
+                right: 0;
+            }
+        header nav > a.active::after {
+            left: 0;
+            right: 0;
+        }
+
+@media (max-width: 768px) {
+    header .hamburger {
+        display: inline-block;
+    }
+    
+    header nav {
+        display: none;
+        
+    }
+        header nav.visible {
+             width: 100%;
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+            margin-bottom: -10px;
+            text-align: center;
+            
+        }
+            header nav.visible > a {
+                width: 100%;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 13px;
+                color: #000;
+                font-weight: 600;
+                line-height: 40px;
+                border-top: 1px solid rgb(243, 239, 239);
+                margin-top: -15px;
+                margin-left: 0px;
+            }
+            header nav.visible > a:last-of-type{
+                margin-bottom: -10px;
+            }
+            header nav > a::after {
+                display: none;
+            }
 }

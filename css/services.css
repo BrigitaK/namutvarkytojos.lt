@@ -1,6 +1,4 @@
 .column-left{
-    border: 1px solid #bdbdbd;
-    padding: 20px;
 }
     .column-left > .row > img{
         display: block;
@@ -22,11 +20,27 @@
     .service{
         text-align: center;
         text-transform: uppercase;
-        border: 1px solid #bdbdbd;
+        border: 5px solid #e0e0e0;
         border-radius: 5px;
         font-size: 20px;
+        padding: 10px;
     
     }
+    @keyframes hover {
+        from {
+          transform: translatey(0px);
+        }
+        to {
+          transform: translatey(-10px);
+        }
+      }
+      
+      .service:hover {
+        border: solid 5px #f9c539;
+        transition-duration: 0.9s;
+        animation: hover 0.3s ease-out forwards;
+      }
+      
     .column-left > .service > p{
         border: 1px solid #81ceee;
         border-radius: 3px;

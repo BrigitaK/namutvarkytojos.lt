@@ -33,6 +33,14 @@ body {
 /*50 50*/
 /*33 33 33*/
 /*5 7*/
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1140px 1fr;
+  }
+  .container-fluid > .row {
+    grid-column: 2 / 3;
+  }
+  
 
 .container {
     display: grid;
@@ -62,7 +70,8 @@ body {
     .container > .row > .col-12{ grid-column: span 12;}
 
 @media (min-width: 480px){
-    .container {
+    .container,
+    .container-fluid {
         grid-template-columns: 30px 1fr 30px;
     }
     .logo, .nav {
@@ -83,12 +92,13 @@ body {
 }
 
 @media (min-width: 768px){
-    .container {
-        grid-template-columns: 1fr 660px 1fr;
+    .container,
+    .container-fluid  {
+        grid-template-columns: 1fr 770px 1fr;
     }
     
     .logo, .nav {
-        grid-template-columns: 1fr 660px 1fr;
+        grid-template-columns: 1fr 770px 1fr;
     } 
     .container > .row > .col-sm-1{ grid-column: span 1;}
     .container > .row > .col-sm-2{ grid-column: span 2;}
@@ -105,7 +115,8 @@ body {
 }
 
 @media (min-width: 1100px){
-    .container {
+    .container,
+    .container-fluid  {
         grid-template-columns: 1fr 1000px 1fr;
     }
     .logo, .nav {
@@ -126,7 +137,8 @@ body {
 }
 
 @media (min-width: 1400px){
-    .container {
+    .container,
+    .container-fluid  {
         grid-template-columns: 1fr 1300px 1fr;
     }
     .logo, .nav {
