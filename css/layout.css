@@ -53,7 +53,7 @@ body {
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-column: 2 / 3;
-        gap: 5px;
+        gap: 15px;
     }
 
     .container > .row > .col-1{ grid-column: span 1;}
