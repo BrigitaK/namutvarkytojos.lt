@@ -27,24 +27,24 @@
                 <h1>Pasirinkite paslaugą</h1>
             </div>
             <div class=" row service col-12 col-small-6 col-sm-6 col-md-3">
-                <a  href="#">Periodinis tvarkymas</a>
+                <h2>Periodinis tvarkymas</h2>
                 <img src="./photo/cleaning.png" alt="Photo">
-                <p class="btn">Plačiau</p>
+                <a href="/periodinis-tvarkymas.html" class="btn">Plačiau</a>
             </div>
             <div class=" row service col-12 col-small-6 col-sm-6 col-md-3">
-                <a  href="#">Vienkartinis tvarkymas</a>
+                <h2>Vienkartinis tvarkymas</h2>
                 <img src="./photo/cleaning.png" alt="Photo">
-                <p class="btn">Plačiau</p>
+                <a class="btn">Plačiau</a>
             </div>
             <div class=" row service col-12 col-small-6 col-sm-6 col-md-3">
-                <a  href="#">Generalinis tvarkymas</a>
+                <h2>Generalinis tvarkymas</h2>
                 <img src="./photo/cleaning.png" alt="Photo">
-                <p class="btn">Plačiau</p>
+                <a class="btn">Plačiau</a>
             </div>
             <div class="row service col-12 col-small-6 col-sm-6 col-md-3">
-                <a  href="#">Postatybinis tvarkymas</a>
+                <h2>Postatybinis tvarkymas</h2>
                 <img src="./photo/cleaning.png" alt="Photo">
-                <p class="btn">Plačiau</p>
+                <a class="btn">Plačiau</a>
             </div>
         </div>
     </div>
@@ -66,15 +66,62 @@
                 <h2>SUŽINOK KAINĄ IR UŽSISAKYK!</h2>
             </div>
             <div class="row plc col-12 col-sm-8">
-                <div>1. Pasirinkite paslaugą</div>
-                <input type="" placeholder="Periodinis tvarkymas">
+                <div class="paslauga">1. Pasirinkite paslaugą</div>
+                    <select required>
+                        <option value="" disabled selected hidden>Pasirinkite paslaugą</option>
+                        <option value="0">Periodinis tvarkymas</option>
+                        <option value="1">Vienkartinis tvarkymas</option>
+                        <option value="1">Generalinis tvarkymas</option>
+                    </select>
                 <div>2. Pasirinkite datą ir laiką</div>
-                <input  type="" placeholder="Periodinis tvarkymas">
-                <div>3. Pasirinkite datą ir laiką</div>
-                <input  type="" placeholder="Periodinis tvarkymas">
+                <form>
+                <select class="left" required>
+                    <option value="" disabled selected hidden>Pasirinkite datą</option>
+                    <option value="0">Ketvirtadienis, Spalio 29 d</option>
+                    <option value="1">Penktadienis, Spalio 30 d</option>
+                    <option value="2">Sestadienis, Spalio 31 d</option>
+                </select>
+                <select class="right" required>
+                    <option value="" disabled selected hidden>Pasirinkite laiką</option>
+                    <option value="0">07:00</option>                  <option value="0">07:00</option>
+                    <option value="1">08:00</option>
+                    <option value="2">09:00</option>
+                    <option value="3">10:00</option>
+                    <option value="4">11:00</option>
+                </select>
+            </form>
+                <div>3. Informacija apie objektą</div>
+                <form>
+                    <select class="obj-1" required>
+                        <option value="" disabled selected hidden>Kambarių skaičius</option>
+                        <option value="0">1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                    </select>
+                    <select class="obj-2" required>
+                        <option value="" disabled selected hidden>Plotas (m²)</option>
+                        <option value="1">40 - 60 m²</option>
+                        <option value="2">60 - 80 m²</option>
+                        <option value="3">80 - 100 m²</option>
+                        <option value="4">100 - 120 m²</option>
+                    </select>
+                    <a class="obj-3" href="#">Skaičiuoti</a>
+                </form>
             </div>
             <div class="row kaina col-12 col-sm-4">
-                <div>kaina</div>
+                <div>Apskaičiuota kaina</div>
+                <div>00.00 €</div>
+                <div>Pasirinkite tvarkytoją:</div>
+                    <select class="housekeepers" required>
+                        <option value="" disabled selected hidden>Tvarkytojos</option>
+                        <option value="1">Tvarkytoja</option>
+                        <option value="2">Tvarkytoja</option>
+                        <option value="3">Tvarkytoja</option>
+                        <option value="4">Tvarkytoja</option>
+                    </select>
+                <a class="rezervation" href="#">Siųsti rezervacijos užklausą</a>
             </div>
         </div>
     </div>

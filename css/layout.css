@@ -53,7 +53,7 @@ body {
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-column: 2 / 3;
-        gap: 15px;
+        gap: 5px;
     }
 
     .container > .row > .col-1{ grid-column: span 1;}
@@ -120,7 +120,7 @@ body {
         grid-template-columns: 1fr 1000px 1fr;
     }
     .logo, .nav {
-        grid-template-columns: 1fr 1000px 1fr;
+        grid-template-columns: 1fr 100px 1fr;
     }
     .container > .row > .col-md-1{ grid-column: span 1;}
     .container > .row > .col-md-2{ grid-column: span 2;}

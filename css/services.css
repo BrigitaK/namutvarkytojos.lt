@@ -5,6 +5,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        margin-bottom: 5px;
     }
     
     .column-left > .row > h1{
@@ -13,9 +14,11 @@
         padding: 30px 0;
         margin-bottom: 20px;
     }
-    .column-left > .service > a{
+    .column-left > .service > h2{
         text-decoration: none;
         color: black;
+        text-transform: none;
+        font-size: 20px;
     }
     .service{
         text-align: center;
@@ -24,6 +27,7 @@
         border-radius: 5px;
         font-size: 20px;
         padding: 10px;
+        padding-bottom: 15px;
     
     }
     @keyframes hover {
@@ -41,17 +45,19 @@
         animation: hover 0.3s ease-out forwards;
       }
       
-    .column-left > .service > p{
+    .column-left > .service > a{
         border: 1px solid #81ceee;
-        border-radius: 3px;
+        border-radius: 5px;
         width: 100%;
         text-align: center;
-        padding: 5px;
+        padding: 5px 15px;
         background-color: #f9fcfd;
         cursor: pointer;
+        text-decoration: none;
+        color: #000;
         
     }
-    .column-left > .service > p:hover {
+    .column-left > .service > a:hover {
         background-color:#81ceee;
         color: #fff;
     }
