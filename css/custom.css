@@ -48,6 +48,7 @@
     }
     .price select {
         padding: 5px;
+        font-size: 15px;
     }
     .price form {
         display: inline-block;
