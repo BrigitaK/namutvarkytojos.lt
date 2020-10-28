@@ -31,7 +31,7 @@ class RenderHeader {
     }
 
     generateLogo() {
-            return `<img src="${this.logo}" alt="Namu tvarkytojos logo">`;
+            return `<a class="logo" href="#">Namų Tvarkytojos</a>`;
         
     }
 

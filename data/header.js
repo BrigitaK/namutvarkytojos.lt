@@ -1,13 +1,16 @@
 const headerData = {
     selector: '#main_header',
-    logo: 'photo/logo.png',
     menu: [
         {
-            text: 'Tvarkytojos',
+            text: 'Paslaugos',
             link: 'tvarkytojos'
         },
         {
-            text: 'Prisijunk/Registruokis',
+            text: 'Rezervacija',
+            link: 'prisijunk/registruokis'
+        },
+        {
+            text: 'Kontaktai',
             link: 'prisijunk/registruokis'
         },
     ]
