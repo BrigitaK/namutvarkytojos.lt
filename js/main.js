@@ -8,5 +8,12 @@ import data from '../data/data.js';
 //import rendering functions
 //execute
 
+//pliuso issiskleidimas, susiskleidimas
+   // pliuso click'ai
+   const plus = document.querySelector('#duk .circle');
+   const par = document.querySelector('.questions .par');
+   plus.addEventListener('click', () => {
+       par.classList.toggle('visible');
+   });
 //header
 new RenderHeader(headerData);
