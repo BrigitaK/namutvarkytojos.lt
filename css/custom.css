@@ -127,9 +127,11 @@
     }
         .send > .row > h2 {
             color: #fff;
-            font-size: 28px;
-            font-weight: 600;
-            margin-bottom: 60px;
+            padding-bottom: 40px;
+            color: #fff;
+            font-size: 36px;
+            line-height: 40px;
+            font-weight: 100;
         }
         
         .button {
@@ -156,20 +158,49 @@
 
 
 
-.price {
+#price {
+    background-color: #fcfdfd;
 }
+    .price h2{
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        color: #a7a9aa;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 100;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .price h2::after{
+        width: 100px;
+        height: 3px;
+        background: #a7a9aa;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 10px;
+    }
     .price > .plc {
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
-        border: 2px solid #bdbdbd;
         padding: 10px;
-        border: 5px solid #e0e0e0;
-        
     }
     .price select {
-        padding: 5px;
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 12px 15px;
+        color: #303030;
+        font-weight: 200;
+    }
+    .price .paslauga {
+        font-size: 18px;
+        line-height: 25px;
+        color: #303030;
+        font-weight: 200;
     }
     .price form {
         display: inline-block;
@@ -179,12 +210,12 @@
     .price .left {
         display: inline-block;
         float: left;
-        width: 70%;
+        width: 68%;
     }
     .price .right {
         display: inline-block;
         float: right;
-        width: 28%;
+        width: 30%;
     }
     .price .obj-1{
         display: inline-block;
@@ -199,10 +230,15 @@
         float: right;
         width: 38%;
         border: 1px solid grey;
+        border-radius: 20px;
         text-align: center;
         text-decoration: none;
         color: #000;
-        padding: 4px;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 10px;
+        color: #303030;
+        font-weight: 200;
     }
     .price select .houskeepers{
         display: inline-block;
