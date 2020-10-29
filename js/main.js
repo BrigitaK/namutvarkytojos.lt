@@ -12,8 +12,10 @@ import data from '../data/data.js';
    // pliuso click'ai
    const plus = document.querySelector('#duk .circle');
    const par = document.querySelector('.questions .par');
+   const min = document.querySelector('.questions .line2')
    plus.addEventListener('click', () => {
        par.classList.toggle('visible');
+        min.classList.toggle('remove');
    });
 //header
 new RenderHeader(headerData);

@@ -361,6 +361,9 @@
         transform: rotateY(0deg) rotate(90deg);
         transition: transform 2s;
     }
+    .question .line2.remove{
+        display: none;
+    }
     .questions .par.visible{
         display: block;
         width: auto;
