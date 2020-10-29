@@ -229,17 +229,21 @@
     .price .obj-3{
         display: inline-block;
         float: right;
-        width: 38%;
-        border: 1px solid grey;
+        width: 37%;
+        border: 2px solid #60d2a9;;
         border-radius: 20px;
         text-align: center;
         text-decoration: none;
         color: #000;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 25px;
         padding: 10px 10px;
         color: #303030;
-        font-weight: 200;
+        font-weight: 400;
+    }
+    .price .obj-3:hover {
+        background-color: #60d2a9;
+        color: #fff;
     }
     .price select .houskeepers{
         display: inline-block;
@@ -253,15 +257,36 @@
         border: 5px solid #e0e0e0;
         padding: 10px;
     }
+    .price-rez{
+        font-size: 20px;
+        line-height: 25px;
+        padding: 10px 10px;
+        color: #303030;
+        font-weight: 200;
+    }
     .rezervation{
         display: inline-block;
         text-decoration: none;
         width: 100%;
-        margin-top: 80px;
+        margin-top: 10px;
         color: #000;
-        border: 1px solid grey;
+        border: 4px solid #60d2a9;
+        border-radius: 15px;
+        padding: 10px;
         text-align: center;
         padding: 4px 0;
+        text-transform: uppercase;
+    }
+    .rezervation:hover{
+        background-color: #60d2a9;
+        color: #fff;
+    }
+    .kaina p{
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #303030;
+        font-weight: 200;
     }
 #contact{
     background-color: #60d2a9;
