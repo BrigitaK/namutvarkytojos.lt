@@ -14,6 +14,7 @@ function renderServices(data) {
         <div class="block1"></div>
         <h2>${service.title}</h2>
         <p>${service.paragraph}</p>
+        <a href="${service.link}" class="service-btn">Plačiau</a>
         </div>`;
     }
 console.log(HTML);

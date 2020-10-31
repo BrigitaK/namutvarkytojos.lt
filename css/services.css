@@ -43,6 +43,7 @@
         border-radius: 5px;
         font-size: 20px;
         padding: 10px;
+        padding-bottom: 30px;
         margin-bottom: 100px;
     }
     .service .block1 {
@@ -80,9 +81,17 @@
         text-align: center;
         
     }
-    .column-left > .service > a:hover {
-        background-color:#81ceee;
-        color: #fff;
+ 
+    .service-btn{
+        text-align: center;
+        border: 1px solid grey;
+        border-radius: 15px;
+        padding: 5px 20px;
+        color: #2b5279;
+        text-decoration: none;
+    }
+    .service-btn:hover{
+        border: 2px solid red;;
     }
 
 @media (min-width: 780{

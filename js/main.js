@@ -4,6 +4,9 @@
 import { headerData } from '../data/header.js';
 import { RenderHeader } from '../js/components/RenderHeader.js';
 
+//hero
+import { herotypeanim } from './herotypeanim.js';
+import { heroData } from '../data/hero.js';
 //choose-us 
 import { chooseData } from '../data/choose.js';
 import { renderChoose } from '../js/components/choose/renderChoose.js';
@@ -26,6 +29,9 @@ import { renderServices } from '../js/components/services/renderServices.js';
   //
 //header
 new RenderHeader(headerData);
+
+//hero
+herotypeanim(heroData);
 
 // choose
 renderChoose(chooseData);
