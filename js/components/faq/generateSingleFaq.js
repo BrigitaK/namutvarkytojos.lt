@@ -1,4 +1,4 @@
-import { isValidFaq } from './isValidFaq.js'
+import { isValidFaq } from '../faq/isValidFaq.js'
 
 function generateSingleFaq(faq, expanded = false) {
     // input validation
