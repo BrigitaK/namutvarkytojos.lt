@@ -5,14 +5,14 @@ import { headerData } from '../data/header.js';
 import { RenderHeader } from '../js/components/RenderHeader.js';
 
 //hero
-import { herotypeanim } from '../herotypeanim.js';
+import { herotypeanim } from './herotypeanim.js';
 import { heroData } from '../data/hero.js';
 //choose-us 
 import { chooseData } from '../data/choose.js';
 import { renderChoose } from '../js/components/choose/renderChoose.js';
 // faq import
 import { faqData } from '../data/faq.js';
-import { renderFaq } from '../components/faq/renderFaq.js';
+import { renderFaq } from './components/faq/renderFaq.js';
 
 //import data
 import data from '../data/data.js';
