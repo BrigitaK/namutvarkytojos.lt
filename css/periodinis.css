@@ -5,6 +5,7 @@ main .per{
     border-color: #ffffff;
     margin-top: -80px;
     background-color: #61d9be;
+    position: relative;
 }
 .per h2{
     color: #fff;
@@ -14,4 +15,76 @@ main .per{
     line-height: 50px;
     font-weight: 300;
     text-transform: uppercase;
+}
+.per p{
+    color: #fff;
+    padding-bottom: 50px;
+}
+.bg-g{
+    background-color:#f7f9fa;
+    }
+.per-title .row h1{
+    margin-bottom: 100px;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.per-title > .row > h1::after{
+    width: 100px;
+    height: 3px;
+    background: #111111;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -10px;
+}
+.per-title .row h2{
+    color: #2b5279;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.item {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(5%, #fff), color-stop(25%, hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, right top, left top, from(#f7f7f7), color-stop(30%, #fff));
+}
+.per-title img {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+  .item > p{
+    width: 100%;
+    padding: 20px 5px;
+    font-family: 'Libre Baskerville', sans-serif;
+    color: #5c5c5c;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    
+}
+.per .block{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    bottom: -27px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    margin-left: -33px;
 }
