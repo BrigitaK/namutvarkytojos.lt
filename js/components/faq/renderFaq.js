@@ -1,4 +1,4 @@
-import { generateSingleFaq } from './generateSingleFAQ.js'
+import { generateSingleFaq } from './generateSingleFAQ.js';
 
 function renderFaq(data) {
     //input validation
